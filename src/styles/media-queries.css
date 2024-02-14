@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 1050px) {
+
+    #main {
+        width: 90rem;
+    }
+
+    .header {
+        max-width: 85rem;
+    }
+
+    #home img {
+        height: 20rem;
+        width: 30rem;
+    }
+
+    .banner-h1 {
+        margin-left: 10rem;
+    }
+
+    #projects .projects-container {
+        justify-content: space-around;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+
+
+
+/* grid-template-columns: 1fr; */

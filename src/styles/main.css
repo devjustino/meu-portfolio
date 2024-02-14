@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,100&display=swap');
+
+#main {
+    background-color: #2e2e2e;
+    min-height: 100vh;
+    font-family: 'montserrat';
+}
+
+.icons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    width: 40rem;
+    height: 5rem;
+    gap: 4rem;
+}
+
+#about-me h1 {
+    font-family: 'Salsa', 'cursive';
+    font-size: 4rem;
+    color: #a6d0dd;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+#about-container {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 5rem;
+    flex-direction: column;
+}
+
+#about-container img {
+    width: 30rem;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-container p {
+    font-family: 'montserrat';
+    font-size: 2rem;
+    font-weight: bold;
+    color: #b8b8b8;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projects h1 {
+    font-family: 'Salsa', 'cursive';
+    font-size: 4rem;
+    color: #a6d0dd;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+#projects .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150vh;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+#projects .projects-container img {
+    border: solid 1px #b8b8b8;
+    width: 30rem;
+    height: 25.5rem;
+}
+
+#projects .projects-container img:hover {
+    transition: .5s;
+    border: solid 2px #ee4949;
+    transform: scale(2);
+}
+
+#projects .projects-container .outros-projetos {
+    color: #ffffff;
+    font-size: large;
+}
+
+#contact h1 {
+    font-family: 'Salsa', 'cursive';
+    font-size: 4rem;
+    color: #a6d0dd;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+#contact .devcons {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10rem;
+    width: 60rem;
+}
+
+#contact {
+    padding-bottom: 10rem;
+}
+
+#contact img {
+    border-radius: 50rem;
+    height: 4rem;
+    margin: .5rem;
+}
+
+#contact img:hover {
+    transition: .2s;
+    border: solid 3px #ffffff;
+    width: 5rem;
+}
+
+#dot {
+    margin-bottom: 20rem;
+    margin-top: 5rem;
+}
+
+.pontuacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10rem;
+    color: #ee4949;
+}
